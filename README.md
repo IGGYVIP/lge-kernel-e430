@@ -1,3 +1,61 @@
+		Cyclone Kernel
+		v0.1
+
+	by freeusername / Team Optima with aid from IGGYVIP and F4uzan
+
+LG L3 II [LG L3 2]
+
+E430 E431 E425 E435 
+
+
+		Warning: 
+Code:
+* Your warranty is now void.
+* I am not responsible for bricked devices, dead SD cards,
+* thermonuclear war, or you getting fired because the alarm app failed. Please
+* do some research if you have any concerns about features of this Kernel
+* before flashing it! YOU are choosing to make these modifications, and if
+* you point the finger at me for messing up your device, I will laugh at you.
+* But since i'm a nice dude i will try to guide you anyway:)
+
+
+		Features :
+
+- Updated Kernel to 3.4.11
+- Kernel -O3 optimizations
+- Compiled with Linaro ToolChain 4.6.2
+- Optimized for cortex-a5, armv7-a
+- Underclock from 122 Mhz
+- Overclock to 1,396 Mhz
+- Stock Qcache replaced by Zcache
+- Swap and Zram added 
+- Zsmalloc
+- Replaced stock KSM with UKSM 0.1.2.3*tweaked to 2bit hash(32 times less work to sign page)
+- Added glibc string and memcpy
+- Custom rom "wallpaper" protection removed from ramdisk
+- Governors available :
+	SmartassH3 by Erasmux
+	SmartassV2 by Erasmux
+	Interactive by Mike Chan
+	Conservative by Russell King, Venkatesh Pallipadi, Jun Nakajima, Alexander Clouter
+	Ondemand by Russell King, Venkatesh Pallipadi, Jun Nakajima
+	Userspace by Russell King, Dominik Brodowski
+	Powersave by Dominik Brodowski
+	Smartmax by Russell King, Venkatesh Pallipadi, Jun Nakajima, maxwen
+	Performance by Dominik Brodowski
+- I/O Schedulers Available :
+	Noop by Jens Axboe
+	Deadline by Jens Axboe
+	Cfq by Jens Axboe
+	Sio by Miguel Boton
+	Sioplus by Miguel Boton, Boy Petersen
+	Fiops by Jens Axboe, Shaohua Li
+	Row
+	Bfq by Jens Axboe, Fabio Checconi, Paolo Valente
+	Zen by Brandon Berhent
+	VR by Aaron Carroll
+
+
 	Linux kernel release 3.x <http://kernel.org/>
 
 These are the release notes for Linux version 3.  Read them carefully,
