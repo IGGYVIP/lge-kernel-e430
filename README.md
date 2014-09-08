@@ -1,5 +1,5 @@
-		Cyclone Kernel
-		v0.1
+CYCLONE KERNEL
+v0.1
 
 	by freeusername / Team Optima with aid from IGGYVIP and F4uzan
 
@@ -34,26 +34,26 @@ Code:
 - Added glibc string and memcpy
 - Custom rom "wallpaper" protection removed from ramdisk
 - Governors available :
-	SmartassH3 by Erasmux
-	SmartassV2 by Erasmux
-	Interactive by Mike Chan
-	Conservative by Russell King, Venkatesh Pallipadi, Jun Nakajima, Alexander Clouter
-	Ondemand by Russell King, Venkatesh Pallipadi, Jun Nakajima
-	Userspace by Russell King, Dominik Brodowski
-	Powersave by Dominik Brodowski
-	Smartmax by Russell King, Venkatesh Pallipadi, Jun Nakajima, maxwen
-	Performance by Dominik Brodowski
+SmartassH3 by Erasmux
+SmartassV2 by Erasmux
+Interactive by Mike Chan
+Conservative by Russell King, Venkatesh Pallipadi, Jun Nakajima, Alexander Clouter
+Ondemand by Russell King, Venkatesh Pallipadi, Jun Nakajima
+Userspace by Russell King, Dominik Brodowski
+Powersave by Dominik Brodowski
+Smartmax by Russell King, Venkatesh Pallipadi, Jun Nakajima, maxwen
+Performance by Dominik Brodowski
 - I/O Schedulers Available :
-	Noop by Jens Axboe
-	Deadline by Jens Axboe
-	Cfq by Jens Axboe
-	Sio by Miguel Boton
-	Sioplus by Miguel Boton, Boy Petersen
-	Fiops by Jens Axboe, Shaohua Li
-	Row
-	Bfq by Jens Axboe, Fabio Checconi, Paolo Valente
-	Zen by Brandon Berhent
-	VR by Aaron Carroll
+Noop by Jens Axboe
+Deadline by Jens Axboe
+Cfq by Jens Axboe
+Sio by Miguel Boton
+Sioplus by Miguel Boton, Boy Petersen
+Fiops by Jens Axboe, Shaohua Li
+Row
+Bfq by Jens Axboe, Fabio Checconi, Paolo Valente
+Zen by Brandon Berhent
+VR by Aaron Carroll
 
 
 	Linux kernel release 3.x <http://kernel.org/>
@@ -142,7 +142,7 @@ INSTALLING the kernel source:
 
    or
 		bzip2 -dc ../patch-3.x.bz2 | patch -p1
-
+
    (repeat xx for all versions bigger than the version of your current
    source tree, _in_order_) and you should be ok.  You may want to remove
    the backup files (xxx~ or xxx.orig), and make sure that there are no
@@ -177,7 +177,7 @@ INSTALLING the kernel source:
 
  - Make sure you have no stale .o files and dependencies lying around:
 
-		cd linux
+		cd linux
 		make mrproper
 
    You should now have the sources correctly installed.
@@ -207,7 +207,7 @@ BUILD directory for the kernel:
    cd /usr/src/linux-3.N
    make O=/home/name/build/kernel menuconfig
    make O=/home/name/build/kernel
-   sudo make O=/home/name/build/kernel modules_install install
+   sudo make O=/home/name/build/kernel modules_install install
 
    Please note: If the 'O=output/dir' option is used then it must be
    used for all invocations of make.
